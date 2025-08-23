@@ -5,7 +5,7 @@
 VLANs
   * Virtual Local Area Networks are logically separated networks on a singular switch
   * Like devices within a subnet, devices within a VLAN have their own broadcast domain
-  * Trunking allows multiple VLANs to communicate through a singular port, i.e., multiple VLANs communicating through a single switchport to a router in order for the VLANs to communicate with one another
+  * Trunking allows multiple VLANs to communicate through a singular port, i.e., multiple VLANs communicating through a single switchport to a router in order for the VLANs to connect
 
 DHCP
   * Dynamic Host Configuration Protocol is used to automatically allocate IPv4 addresses within a given address pool
