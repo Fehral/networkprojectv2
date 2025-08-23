@@ -3,10 +3,13 @@
 </p>
 
 VLANs
-  * Virtual Local Area Networks
+  * Virtual Local Area Networks are logically separated networks on a singular switch
+  * Like devices within a subnet, devices within a VLAN have their own broadcast domain
+  * Trunking allows multiple VLANs to communicate through a singular port, i.e., multiple VLANs communicating through a single switch to a router in order for the VLANs to communicate with one another
 
 DHCP
-  * Dynamic Host Configuration Protocol
+  * Dynamic Host Configuration Protocol is used to automatically allocate IPv4 addresses within a given address pool
+  * Routers can serve as DHCP servers in lieu of a dedicated physical DHCP server, particularly in home network environments
 
 <p align=center>
   <ins>VLANs and DHCP Topology</ins>
