@@ -9,7 +9,7 @@ VLANs
 
 DHCP
   * Dynamic Host Configuration Protocol is used to automatically allocate IPv4 addresses within a given address pool
-  * routers can serve as DHCP servers in lieu of a dedicated physical DHCP server, particularly in home network environments
+  * routers can serve as DHCP servers in lieu of a dedicated physical DHCP server, particularly in SOHO/home network environments
 
 Wireless Networking
   * wireless access points are required for wireless connectivity
