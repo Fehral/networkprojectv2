@@ -22,7 +22,7 @@ Wireless Networking
 </p>
 
 <p align=center>
-  <img src="https://github.com/Fehral/networkprojectv2/blob/main/networkproject2.png?raw=true">
+  <img src="https://github.com/Fehral/networkprojectv2/blob/main/networkprojectv2topology.png?raw=true">
 </p>
 
 R1 Configuation
