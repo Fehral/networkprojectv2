@@ -57,8 +57,7 @@ Router(dhcp-config)#network 192.168.1.128 255.255.255.192
 Router(dhcp-config)#default-router 192.168.1.129
 Router(dhcp-config)#dns-server 192.168.1.129
 Router(dhcp-config)#domain-name Dep3.com
-Router(dhcp-config)#exit
-Router(config)#exit
+Router(dhcp-config)#end
 Router#copy run start
 Destination filename [startup-config]? [Enter]
 Building configuration...
@@ -80,8 +79,7 @@ Switch(config-if-range)#switchport mode access
 Switch(config-if-range)#switchport access vlan 30
 Switch(config-if-range)#int g0/1
 Switch(config-if)#switchport mode trunk
-Switch(config-if)#exit
-Switch(config)#exit
+Switch(config-if)#end
 Switch#copy run start
 Destination filename [startup-config]? [Enter]
 Building configuration...
